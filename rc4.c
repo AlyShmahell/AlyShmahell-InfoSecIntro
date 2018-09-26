@@ -70,7 +70,7 @@ rc4(PyObject* self, PyObject* args)
 
 static PyMethodDef RC4Methods[] =
 {
-    {"rc4", rc4, METH_VARARGS, "Calculate the Fibonacci numbers."},
+    {"rc4", rc4, METH_VARARGS, "Encrypt according to the RC4 algorithm."},
     {NULL, NULL, 0, NULL}
 };
 
